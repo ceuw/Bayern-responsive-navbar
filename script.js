@@ -6,11 +6,9 @@ hamBtn.addEventListener('click', ()=>{
   
   if (hamD) {
     hamMenu.classList.remove('d');
-    hamMenu.classList.add('a');
     hamD = false;
   } else {
     hamMenu.classList.add('d');
-    hamMenu.classList.remove('a');
     hamD = true
   }
 })

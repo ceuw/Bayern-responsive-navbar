@@ -80,9 +80,6 @@ body {
     display: flex;
   }
 
-  .hamburger-menu.a {
-    display: flex;
-  }
   
   .hamburger-menu.d {
     display: none;
@@ -90,6 +87,7 @@ body {
   
   
   .hamburger-menu {
+    display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
